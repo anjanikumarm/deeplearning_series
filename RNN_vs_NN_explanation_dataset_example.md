@@ -11,15 +11,16 @@ The dataset
 **Our goal is to predict the third number from the first two.**
 
 | Previous 2 numbers (Inputs) | Next number (Output) |
-| --- | --- |
-| —   | —   |
-| --- | --- |
-| —   | —   |
-| --- | --- |
-| —   | —   |
-| --- | --- |
-| —   | —   |
-| --- | --- |
+|---|---|
+| [10, 20] | 30 |
+|---|---|
+| [20, 30]  | 40 |
+|---|---|
+| [30, 40] | 50 |
+|---|---|
+| [30, 40] | ? |
+|---|---|
+
 
 How a traditional Neural Network (NN) works
 
